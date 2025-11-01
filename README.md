@@ -84,14 +84,12 @@ Self-review
 - Next improvements: This is a quick project setup that's done in around 3 hours. The generated code is functional but still requires a manual review. It hasn’t received my full approval yet, as it needs to be evaluated for quality, readability, scalability, and optimization. Additional tests should also be implemented, and the code logic can be further refined. The same applies to the front end, where the UI could benefit from further improvements. Additionally, it's missing deployment preparation and Docker files.
 
 
-Repository & project meta
+Project meta
 -------------------------
-
-Repository: [Manager Alerts](https://github.com/MK7777MK/manager-alerts)
 
 Time spent: Around 3 hours
 
-If you have deployed the frontend or backend, replace the placeholders above with the real URLs (Vercel, Netlify, Railway, Render, etc.). If not deployed, you can leave them blank or remove this section.
+Deployment: it's not deployed, but can be done under request.
 
 Frontend tests & lint
 ---------------------
@@ -103,3 +101,7 @@ npm install
 npm test        # run unit tests (vitest)
 npm run lint    # run ESLint checks
 ```
+
+Quick preview:
+<img width="1203" height="652" alt="image" src="https://github.com/user-attachments/assets/a66b9b3e-c2f7-4a4c-ac13-10b752c9aa8a" />
+
