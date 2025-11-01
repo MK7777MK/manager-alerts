@@ -1,0 +1,6 @@
+body { font-family: system-ui, Arial, sans-serif; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto }
+.controls { display:flex; gap: 12px; margin-bottom: 12px }
+/* Presentational CSS kept minimal; colors and components come from Material UI theme */
+table { width:100%; border-collapse: collapse }
+th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align:left }
