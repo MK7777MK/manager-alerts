@@ -3,7 +3,6 @@ from django.core.management.base import BaseCommand
 from django.utils.dateparse import parse_datetime
 from alerts.models import Employee, Alert
 from pathlib import Path
-import random
 
 
 class Command(BaseCommand):

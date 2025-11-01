@@ -2,10 +2,36 @@
 node_modules/
 .pnpm-store/
 
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+*.log
+*/migrations/__pycache__/
+*/**/migrations/__pycache__/
+
 # Build outputs
 dist/
 build/
 coverage/
+frontend/coverage/
+backend/coverage/
+*.manifest
+*.spec
+.coverage.*
 
 # Environment files
 .env
@@ -15,12 +41,16 @@ coverage/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
 .idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.code-workspace
+.history/
 
 # Logs
 logs
@@ -33,6 +63,13 @@ pnpm-debug.log*
 # System Files
 .DS_Store
 Thumbs.db
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
 
 # Testing
 coverage/
